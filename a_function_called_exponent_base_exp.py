@@ -8,4 +8,15 @@ base = int(input("Enter a base number: "))
 exponent = int(input("Enter an exponent: "))
 
 # Use a while loop
+
+def power(base, exp):
+    num = exp
+    result = 1
+    while num > 0:
+        result = result * base
+        num = num - 1
+    return result
+
 # Print output
+
+print(base, "raised to the power of", exponent, "is", power(base, exponent))
