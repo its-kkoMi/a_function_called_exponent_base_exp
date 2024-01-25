@@ -3,5 +3,9 @@
 # Note here exp is a non-negative integer, and the base is an integer.
 
 # Ask user for base and exponent
+
+base = int(input("Enter a base number: "))
+exponent = int(input("Enter an exponent: "))
+
 # Use a while loop
 # Print output
